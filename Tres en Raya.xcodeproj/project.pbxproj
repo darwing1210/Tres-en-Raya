@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E937281CADEADF00786ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E937271CADEADF00786ACD /* AppDelegate.swift */; };
+		F5E9372A1CADEADF00786ACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E937291CADEADF00786ACD /* ViewController.swift */; };
+		F5E9372D1CADEADF00786ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9372B1CADEADF00786ACD /* Main.storyboard */; };
+		F5E9372F1CADEADF00786ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E9372E1CADEADF00786ACD /* Assets.xcassets */; };
+		F5E937321CADEADF00786ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E937301CADEADF00786ACD /* LaunchScreen.storyboard */; };
+		F5E9373D1CADEADF00786ACD /* Tres_en_RayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9373C1CADEADF00786ACD /* Tres_en_RayaTests.swift */; };
+		F5E937481CADEADF00786ACD /* Tres_en_RayaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E937471CADEADF00786ACD /* Tres_en_RayaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5E937391CADEADF00786ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E9371C1CADEADF00786ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E937231CADEADF00786ACD;
+			remoteInfo = "Tres en Raya";
+		};
+		F5E937441CADEADF00786ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E9371C1CADEADF00786ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E937231CADEADF00786ACD;
+			remoteInfo = "Tres en Raya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5E937241CADEADF00786ACD /* Tres en Raya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tres en Raya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E937271CADEADF00786ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5E937291CADEADF00786ACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5E9372C1CADEADF00786ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E9372E1CADEADF00786ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E937311CADEADF00786ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E937331CADEADF00786ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E937381CADEADF00786ACD /* Tres en RayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tres en RayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E9373C1CADEADF00786ACD /* Tres_en_RayaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tres_en_RayaTests.swift; sourceTree = "<group>"; };
+		F5E9373E1CADEADF00786ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E937431CADEADF00786ACD /* Tres en RayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tres en RayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E937471CADEADF00786ACD /* Tres_en_RayaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tres_en_RayaUITests.swift; sourceTree = "<group>"; };
+		F5E937491CADEADF00786ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E937211CADEADF00786ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E937351CADEADF00786ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E937401CADEADF00786ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E9371B1CADEADF00786ACD = {
+			isa = PBXGroup;
+			children = (
+				F5E937261CADEADF00786ACD /* Tres en Raya */,
+				F5E9373B1CADEADF00786ACD /* Tres en RayaTests */,
+				F5E937461CADEADF00786ACD /* Tres en RayaUITests */,
+				F5E937251CADEADF00786ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E937251CADEADF00786ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E937241CADEADF00786ACD /* Tres en Raya.app */,
+				F5E937381CADEADF00786ACD /* Tres en RayaTests.xctest */,
+				F5E937431CADEADF00786ACD /* Tres en RayaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E937261CADEADF00786ACD /* Tres en Raya */ = {
+			isa = PBXGroup;
+			children = (
+				F5E937271CADEADF00786ACD /* AppDelegate.swift */,
+				F5E937291CADEADF00786ACD /* ViewController.swift */,
+				F5E9372B1CADEADF00786ACD /* Main.storyboard */,
+				F5E9372E1CADEADF00786ACD /* Assets.xcassets */,
+				F5E937301CADEADF00786ACD /* LaunchScreen.storyboard */,
+				F5E937331CADEADF00786ACD /* Info.plist */,
+			);
+			path = "Tres en Raya";
+			sourceTree = "<group>";
+		};
+		F5E9373B1CADEADF00786ACD /* Tres en RayaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9373C1CADEADF00786ACD /* Tres_en_RayaTests.swift */,
+				F5E9373E1CADEADF00786ACD /* Info.plist */,
+			);
+			path = "Tres en RayaTests";
+			sourceTree = "<group>";
+		};
+		F5E937461CADEADF00786ACD /* Tres en RayaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E937471CADEADF00786ACD /* Tres_en_RayaUITests.swift */,
+				F5E937491CADEADF00786ACD /* Info.plist */,
+			);
+			path = "Tres en RayaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E937231CADEADF00786ACD /* Tres en Raya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9374C1CADEADF00786ACD /* Build configuration list for PBXNativeTarget "Tres en Raya" */;
+			buildPhases = (
+				F5E937201CADEADF00786ACD /* Sources */,
+				F5E937211CADEADF00786ACD /* Frameworks */,
+				F5E937221CADEADF00786ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tres en Raya";
+			productName = "Tres en Raya";
+			productReference = F5E937241CADEADF00786ACD /* Tres en Raya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5E937371CADEADF00786ACD /* Tres en RayaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9374F1CADEADF00786ACD /* Build configuration list for PBXNativeTarget "Tres en RayaTests" */;
+			buildPhases = (
+				F5E937341CADEADF00786ACD /* Sources */,
+				F5E937351CADEADF00786ACD /* Frameworks */,
+				F5E937361CADEADF00786ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E9373A1CADEADF00786ACD /* PBXTargetDependency */,
+			);
+			name = "Tres en RayaTests";
+			productName = "Tres en RayaTests";
+			productReference = F5E937381CADEADF00786ACD /* Tres en RayaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5E937421CADEADF00786ACD /* Tres en RayaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E937521CADEADF00786ACD /* Build configuration list for PBXNativeTarget "Tres en RayaUITests" */;
+			buildPhases = (
+				F5E9373F1CADEADF00786ACD /* Sources */,
+				F5E937401CADEADF00786ACD /* Frameworks */,
+				F5E937411CADEADF00786ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E937451CADEADF00786ACD /* PBXTargetDependency */,
+			);
+			name = "Tres en RayaUITests";
+			productName = "Tres en RayaUITests";
+			productReference = F5E937431CADEADF00786ACD /* Tres en RayaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E9371C1CADEADF00786ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Darwing Medina";
+				TargetAttributes = {
+					F5E937231CADEADF00786ACD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WF88B27FLG;
+					};
+					F5E937371CADEADF00786ACD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WF88B27FLG;
+						TestTargetID = F5E937231CADEADF00786ACD;
+					};
+					F5E937421CADEADF00786ACD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WF88B27FLG;
+						TestTargetID = F5E937231CADEADF00786ACD;
+					};
+				};
+			};
+			buildConfigurationList = F5E9371F1CADEADF00786ACD /* Build configuration list for PBXProject "Tres en Raya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E9371B1CADEADF00786ACD;
+			productRefGroup = F5E937251CADEADF00786ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E937231CADEADF00786ACD /* Tres en Raya */,
+				F5E937371CADEADF00786ACD /* Tres en RayaTests */,
+				F5E937421CADEADF00786ACD /* Tres en RayaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E937221CADEADF00786ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E937321CADEADF00786ACD /* LaunchScreen.storyboard in Resources */,
+				F5E9372F1CADEADF00786ACD /* Assets.xcassets in Resources */,
+				F5E9372D1CADEADF00786ACD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E937361CADEADF00786ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E937411CADEADF00786ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E937201CADEADF00786ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9372A1CADEADF00786ACD /* ViewController.swift in Sources */,
+				F5E937281CADEADF00786ACD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E937341CADEADF00786ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9373D1CADEADF00786ACD /* Tres_en_RayaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9373F1CADEADF00786ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E937481CADEADF00786ACD /* Tres_en_RayaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5E9373A1CADEADF00786ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E937231CADEADF00786ACD /* Tres en Raya */;
+			targetProxy = F5E937391CADEADF00786ACD /* PBXContainerItemProxy */;
+		};
+		F5E937451CADEADF00786ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E937231CADEADF00786ACD /* Tres en Raya */;
+			targetProxy = F5E937441CADEADF00786ACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E9372B1CADEADF00786ACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E9372C1CADEADF00786ACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E937301CADEADF00786ACD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E937311CADEADF00786ACD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E9374A1CADEADF00786ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E9374B1CADEADF00786ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E9374D1CADEADF00786ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tres en Raya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.medina.Tres-en-Raya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5E9374E1CADEADF00786ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tres en Raya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.medina.Tres-en-Raya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5E937501CADEADF00786ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tres en RayaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.medina.Tres-en-RayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tres en Raya.app/Tres en Raya";
+			};
+			name = Debug;
+		};
+		F5E937511CADEADF00786ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tres en RayaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.medina.Tres-en-RayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tres en Raya.app/Tres en Raya";
+			};
+			name = Release;
+		};
+		F5E937531CADEADF00786ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tres en RayaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.medina.Tres-en-RayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tres en Raya";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5E937541CADEADF00786ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tres en RayaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.medina.Tres-en-RayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tres en Raya";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E9371F1CADEADF00786ACD /* Build configuration list for PBXProject "Tres en Raya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9374A1CADEADF00786ACD /* Debug */,
+				F5E9374B1CADEADF00786ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E9374C1CADEADF00786ACD /* Build configuration list for PBXNativeTarget "Tres en Raya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9374D1CADEADF00786ACD /* Debug */,
+				F5E9374E1CADEADF00786ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E9374F1CADEADF00786ACD /* Build configuration list for PBXNativeTarget "Tres en RayaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E937501CADEADF00786ACD /* Debug */,
+				F5E937511CADEADF00786ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E937521CADEADF00786ACD /* Build configuration list for PBXNativeTarget "Tres en RayaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E937531CADEADF00786ACD /* Debug */,
+				F5E937541CADEADF00786ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E9371C1CADEADF00786ACD /* Project object */;
+}
