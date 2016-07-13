@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F59EFABE1CAF02BB00EBC609 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = F59EFABB1CAF02BB00EBC609 /* board.png */; };
+		F59EFABF1CAF02BB00EBC609 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = F59EFABC1CAF02BB00EBC609 /* cross.png */; };
+		F59EFAC01CAF02BB00EBC609 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = F59EFABD1CAF02BB00EBC609 /* nought.png */; };
 		F5E937281CADEADF00786ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E937271CADEADF00786ACD /* AppDelegate.swift */; };
 		F5E9372A1CADEADF00786ACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E937291CADEADF00786ACD /* ViewController.swift */; };
 		F5E9372D1CADEADF00786ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9372B1CADEADF00786ACD /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F59EFABB1CAF02BB00EBC609 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		F59EFABC1CAF02BB00EBC609 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		F59EFABD1CAF02BB00EBC609 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 		F5E937241CADEADF00786ACD /* Tres en Raya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tres en Raya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E937271CADEADF00786ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E937291CADEADF00786ACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 			children = (
 				F5E937271CADEADF00786ACD /* AppDelegate.swift */,
 				F5E937291CADEADF00786ACD /* ViewController.swift */,
+				F59EFABB1CAF02BB00EBC609 /* board.png */,
+				F59EFABC1CAF02BB00EBC609 /* cross.png */,
+				F59EFABD1CAF02BB00EBC609 /* nought.png */,
 				F5E9372B1CADEADF00786ACD /* Main.storyboard */,
 				F5E9372E1CADEADF00786ACD /* Assets.xcassets */,
 				F5E937301CADEADF00786ACD /* LaunchScreen.storyboard */,
@@ -232,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59EFABF1CAF02BB00EBC609 /* cross.png in Resources */,
+				F59EFABE1CAF02BB00EBC609 /* board.png in Resources */,
+				F59EFAC01CAF02BB00EBC609 /* nought.png in Resources */,
 				F5E937321CADEADF00786ACD /* LaunchScreen.storyboard in Resources */,
 				F5E9372F1CADEADF00786ACD /* Assets.xcassets in Resources */,
 				F5E9372D1CADEADF00786ACD /* Main.storyboard in Resources */,
@@ -403,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tres en Raya/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.medina.Tres-en-Raya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tres en Raya/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.medina.Tres-en-Raya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +501,7 @@
 				F5E9374E1CADEADF00786ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5E9374F1CADEADF00786ACD /* Build configuration list for PBXNativeTarget "Tres en RayaTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +510,7 @@
 				F5E937511CADEADF00786ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5E937521CADEADF00786ACD /* Build configuration list for PBXNativeTarget "Tres en RayaUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +519,7 @@
 				F5E937541CADEADF00786ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
